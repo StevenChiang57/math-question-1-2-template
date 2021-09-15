@@ -1,13 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 body {
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Shadows Into Light';
     margin: 0
 }
 
-.first {
-    background-color: #1112;
-    font-size: 1.7em;
-    text-align: left;
-    padding: 0.5em 0 0 0.5em;
+.acorn_tree {
+    font-size: 1.65rem;
+    text-align: center;
+    font-weight: bold;
+    color: #EEEEFF;
+}
+
+.bee_flowers{
+    font-size: 1.65rem;
+    text-align: center;
+    font-weight: bold;
+    color: #EEEEFF;
+}
+
+.acorn_question1{
+    padding: 1.5em 0 1em 0;
+}
+
+input[type=button]{
+    border: none;
+    border-radius: 0.5rem;
+    width: 10%;
+    height: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+input[type=button]:hover{
+    background-color: gray;
+}
+
+input[type=radio]{
+    width: 20px;
+    height: 20px;
 }
