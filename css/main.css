@@ -23,6 +23,14 @@ body {
     padding: 1.5em 0 1em 0;
 }
 
+.bee_question1{
+    padding: 1.5em 0 1em 0;
+}
+
+.bee_question3{
+    padding: 1.5em 0 1em 0;
+}
+
 input[type=button]{
     border: none;
     border-radius: 0.5rem;
