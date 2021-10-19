@@ -6,13 +6,13 @@ function check_acorn_1(){
             document.getElementById('btn_list_1').style.borderColor = "green";
             document.getElementById('acorn_1_msg').style.color = "green"
             document.getElementById('acorn_1_msg').innerText = "Correct! The tree has 6 acorns.";
-            document.getElementById('acorn_img_1').src="https://imgur.com/m8XDzLr"
+            document.getElementById('acorn_img_1').src="https://i.imgur.com/CnDBbmp.png"
         }
         else if (values[i].checked){
             document.getElementById('btn_list_1').style.borderColor = "red";
             document.getElementById('acorn_1_msg').style.color = "red"
             document.getElementById('acorn_1_msg').innerText = "Look again carefuly. Here are some red arrows to help.";
-            document.getElementById('acorn_img_1').src="https://imgur.com/8DkWBwT"
+            document.getElementById('acorn_img_1').src="https://i.imgur.com/BwgAPYT.png"
         }
     }
 }
@@ -25,14 +25,14 @@ function check_acorn_2(){
             document.getElementById('btn_list_2').style.borderColor = "green";
             document.getElementById('acorn_2_msg').style.color = "green"
             document.getElementById('acorn_2_msg').innerText = "Correct! The tree now has 4 acorns.";
-            document.getElementById('acorn_img_2').src="https://imgur.com/NMdutXp"
+            document.getElementById('acorn_img_2').src="https://i.imgur.com/xg1Kz9j.png"
 
         }
         else if (values[i].checked){
             document.getElementById('btn_list_2').style.borderColor = "red";
             document.getElementById('acorn_2_msg').style.color = "red"
             document.getElementById('acorn_2_msg').innerText = "Look again carefuly. Don't count the acorns with the squirrel.";
-            document.getElementById('acorn_img_2').src="https://imgur.com/Nqdenz0"
+            document.getElementById('acorn_img_2').src="https://i.imgur.com/XLcbhiQ.png"
         }
     }
 }
@@ -45,13 +45,13 @@ function check_bee_1(){
             document.getElementById('btn_list_3').style.borderColor = "green";
             document.getElementById('bee_1_msg').style.color = "green"
             document.getElementById('bee_1_msg').innerText = "Correct! The field has 9 flowers.";
-            document.getElementById('bee_img_1').src="https://imgur.com/Cz0NU93"
+            document.getElementById('bee_img_1').src="https://i.imgur.com/YVaXyFA.png"
         }
         else if (values[i].checked){
             document.getElementById('btn_list_3').style.borderColor = "red";
             document.getElementById('bee_1_msg').style.color = "red"
             document.getElementById('bee_1_msg').innerText = "Look again carefuly. Here are some red arrows to help.";
-            document.getElementById('bee_img_1').src="https://imgur.com/1VcMn0N"
+            document.getElementById('bee_img_1').src="https://i.imgur.com/e23fmlF.png"
         }
     }
 }
@@ -64,13 +64,13 @@ function check_bee_2(){
             document.getElementById('btn_list_4').style.borderColor = "green";
             document.getElementById('bee_2_msg').style.color = "green"
             document.getElementById('bee_2_msg').innerText = "Correct! The field has 3 bees.";
-            document.getElementById('bee_img_2').src="https://imgur.com/o6XVbrG"
+            document.getElementById('bee_img_2').src="https://i.imgur.com/hmdxJW3.png"
         }
         else if (values[i].checked){
             document.getElementById('btn_list_4').style.borderColor = "red";
             document.getElementById('bee_2_msg').style.color = "red"
             document.getElementById('bee_2_msg').innerText = "Look again carefuly. Only count the bees.";
-            document.getElementById('bee_img_2').src="https://imgur.com/K19rK1R"
+            document.getElementById('bee_img_2').src="https://i.imgur.com/7YZL9Lp.png"
         }
     }
 }
@@ -83,13 +83,13 @@ function check_bee_3(){
             document.getElementById('btn_list_5').style.borderColor = "green";
             document.getElementById('bee_3_msg').style.color = "green"
             document.getElementById('bee_3_msg').innerText = "Correct! Every bee will collect honey from 3 flowers.";
-            document.getElementById('bee_img_3').src="https://imgur.com/YSUjOyR"
+            document.getElementById('bee_img_3').src="https://i.imgur.com/AET5NFI.png"
         }
         else if (values[i].checked){
             document.getElementById('btn_list_5').style.borderColor = "red";
             document.getElementById('bee_3_msg').style.color = "red"
             document.getElementById('bee_3_msg').innerText = "Look again carefuly. Count the flowers for each bee";
-            document.getElementById('bee_img_3').src="https://imgur.com/518HR52"
+            document.getElementById('bee_img_3').src="https://i.imgur.com/UDdf7Lz.png"
         }
     }
 }
