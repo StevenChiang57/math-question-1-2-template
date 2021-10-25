@@ -12,7 +12,7 @@ function check_acorn_1(){
             document.getElementById('btn_list_1').style.borderColor = "red";
             document.getElementById('acorn_1_msg').style.color = "red"
             document.getElementById('acorn_1_msg').innerText = "Look again carefuly. Here are some red arrows to help.";
-            document.getElementById('acorn_img_1').src="https://i.imgur.com/BwgAPYT.png"
+            document.getElementById('acorn_img_1').src="https://i.imgur.com/GrZkGQf.png"
         }
     }
 }
