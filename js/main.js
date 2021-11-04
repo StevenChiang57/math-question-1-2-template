@@ -94,4 +94,65 @@ function check_bee_3(){
     }
 }
 
-module.exports = {check_acorn_1, check_acorn_2, check_bee_1, check_bee_2, check_bee_3}
+function check_water_1(){
+    var userinput = document.getElementById("water1input")
+
+    if(userinput.value == 4){
+        document.getElementById('btn_list_6').style.borderColor = "green";
+        document.getElementById('water_1_msg').style.color = "green";
+        document.getElementById('water_1_msg').innerText = "Correct! It will take 4 hours for the cup to be full";
+    }
+    else{
+        document.getElementById('btn_list_6').style.borderColor = "red";
+        document.getElementById('water_1_msg').style.color = "red"
+        if(userinput.value < 4)
+            document.getElementById('water_1_msg').innerText = "More than " + userinput.value + "\n Half a cup + Half a cup = Full cup";
+        else
+            document.getElementById('water_1_msg').innerText = "Less than " + userinput.value + "\n Half a cup + Half a cup = Full cup";
+    
+    }
+
+}
+
+function check_water_2(){
+    var userinput = document.getElementById("water2input")
+
+    if(userinput.value == 2){
+        document.getElementById('btn_list_7').style.borderColor = "green";
+        document.getElementById('water_2_msg').style.color = "green";
+        document.getElementById('water_2_msg').innerText = "Correct! It will take 2 hours to fill both cups to half";
+    }
+    else{
+        document.getElementById('btn_list_7').style.borderColor = "red";
+        document.getElementById('water_2_msg').style.color = "red"
+        if(userinput.value < 2)
+            document.getElementById('water_2_msg').innerText = "More than " + userinput.value + "\n They both fill up at the same time";
+        else
+            document.getElementById('water_2_msg').innerText = "Less than " + userinput.value + "\n They both fill up at the same time";
+    
+    }
+
+}
+
+function check_water_3(){
+    var userinput = document.getElementById("water3input")
+
+    if(userinput.value == 8){
+        document.getElementById('btn_list_8').style.borderColor = "green";
+        document.getElementById('water_3_msg').style.color = "green";
+        document.getElementById('water_3_msg').innerText = "Correct! There are 8 ounces of water in both cups";
+    }
+    else{
+        document.getElementById('btn_list_8').style.borderColor = "red";
+        document.getElementById('water_3_msg').style.color = "red"
+        if(userinput.value < 8)
+            document.getElementById('water_3_msg').innerText = "More than " + userinput.value + "\n Add 4 ounces for each cup";
+        else
+            document.getElementById('water_3_msg').innerText = "Less than " + userinput.value + "\n Add 4 ounces for each cup";
+    
+    }
+
+}
+
+
+module.exports = {check_acorn_1, check_acorn_2, check_bee_1, check_bee_2, check_bee_3, check_water_1, check_water_2, check_water_3}
