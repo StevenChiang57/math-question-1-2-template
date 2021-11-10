@@ -6,28 +6,28 @@
 }
 
 .acorn_tree {
-    font-size: 1.65rem;
+    font-size: 1.65em;
     text-align: center;
     font-weight: bold;
-    color: #EEEEFF;
+    color: black;
     width: 1000px;
     margin: auto;
 }
 
 .bee_flowers{
-    font-size: 1.65rem;
+    font-size: 1.65em;
     text-align: center;
     font-weight: bold;
-    color: #EEEEFF;
+    color: black;
     width: 1000px;
     margin: auto;
 }
 
 .water_cup{
-    font-size: 1.65rem;
+    font-size: 1.65em;
     text-align: center;
     font-weight: bold;
-    color: #EEEEFF;
+    color: black;
     width: 1000px;
     margin: auto;
     background-image: url('bk9.jpg');
