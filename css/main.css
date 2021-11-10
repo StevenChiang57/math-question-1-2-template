@@ -6,7 +6,7 @@
 }
 
 .acorn_tree {
-    font-size: 1.65em;
+    font-size: 2em;
     text-align: center;
     font-weight: bold;
     color: #000000;
@@ -16,7 +16,7 @@
 }
 
 .bee_flowers{
-    font-size: 1.65em;
+    font-size: 2em;
     text-align: center;
     font-weight: bold;
     color: #000000;
@@ -26,7 +26,7 @@
 }
 
 .water_cup{
-    font-size: 1.65em;
+    font-size: 2em;
     text-align: center;
     font-weight: bold;
     color: #000000;
@@ -49,11 +49,6 @@
 
 .water_question2{
     padding: 1.5em 0 1em 0;
-}
-
-
-.btn:hover{
-    background-color: gray;
 }
 
 .button_list{
