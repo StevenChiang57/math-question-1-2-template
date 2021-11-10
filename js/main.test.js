@@ -22,3 +22,15 @@ test('checks for bee 2', () => {
 test('checks for bee 3', () => {
     expect(math_temp.check_bee_3()).toBe(null)
 });
+
+test('checks for water 1', () => {
+    expect(math_temp.check_water_1()).toBe(null)
+});
+
+test('checks for bee 2', () => {
+    expect(math_temp.check_water_2()).toBe(null)
+});
+
+test('checks for bee 3', () => {
+    expect(math_temp.check_water_3()).toBe(null)
+});

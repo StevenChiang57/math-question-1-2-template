@@ -107,9 +107,10 @@ function check_water_1(){
         document.getElementById('water_1_msg').style.color = "red"
         if(userinput.value < 4)
             document.getElementById('water_1_msg').innerText = "More than " + userinput.value + "\n Half a cup + Half a cup = Full cup";
-        else
+        else if (userinput.value > 4)
             document.getElementById('water_1_msg').innerText = "Less than " + userinput.value + "\n Half a cup + Half a cup = Full cup";
-    
+        else
+            document.getElementById('water_1_msg').innerText = userinput.value + " is not a valid number!";
     }
 
 }
@@ -127,9 +128,10 @@ function check_water_2(){
         document.getElementById('water_2_msg').style.color = "red"
         if(userinput.value < 2)
             document.getElementById('water_2_msg').innerText = "More than " + userinput.value + "\n They both fill up at the same time";
-        else
+        else if(userinput.value > 2)
             document.getElementById('water_2_msg').innerText = "Less than " + userinput.value + "\n They both fill up at the same time";
-    
+        else
+            document.getElementById('water_2_msg').innerText = userinput.value + " is not a valid number!";
     }
 
 }
@@ -147,8 +149,10 @@ function check_water_3(){
         document.getElementById('water_3_msg').style.color = "red"
         if(userinput.value < 8)
             document.getElementById('water_3_msg').innerText = "More than " + userinput.value + "\n Add 4 ounces for each cup";
-        else
+        else if (userinput.value > 8)
             document.getElementById('water_3_msg').innerText = "Less than " + userinput.value + "\n Add 4 ounces for each cup";
+        else
+            document.getElementById('water_3_msg').innerText = userinput.value + " is not a valid number!";
     
     }
 
