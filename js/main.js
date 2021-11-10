@@ -157,6 +157,3 @@ function check_water_3(){
     }
 
 }
-
-
-module.exports = {check_acorn_1, check_acorn_2, check_bee_1, check_bee_2, check_bee_3, check_water_1, check_water_2, check_water_3}
